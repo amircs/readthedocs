@@ -49,7 +49,6 @@ The following command will use `ClinVar`_ to annotate variants on a portion of c
     --references=chr17:40700000:40800000 \
     --transcriptSetIds=CIjfoPXj9LqPlAEQ5vnql4KewYuSAQ \
     --variantAnnotationSetIds=CILSqfjtlY6tHxC0nNH-4cu-xlQ \
-    --callSetIds=3049512673186936334-0 \
     --output=gs://YOUR-BUCKET/dataflow-output/platinum-genomes-chr17region-annotation.tsv
 
 You can check your results by ensuring that the following three results are contained in the output files::
