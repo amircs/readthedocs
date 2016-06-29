@@ -45,7 +45,7 @@ The following command will use `ClinVar`_ to annotate variants on a portion of c
   java -Xbootclasspath/p:alpn-boot.jar \
     -cp google-genomics-dataflow-runnable.jar \
     com.google.cloud.genomics.dataflow.pipelines.AnnotateVariants \
-    --variantSetId=3049512673186936334 \
+    --variantSetId=10473108253681171589 \
     --references=chr17:40700000:40800000 \
     --transcriptSetIds=CIjfoPXj9LqPlAEQ5vnql4KewYuSAQ \
     --variantAnnotationSetIds=CILSqfjtlY6tHxC0nNH-4cu-xlQ \
